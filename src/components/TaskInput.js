@@ -6,7 +6,7 @@ const TaskInput = () => {
 
     const [ task, setTask] = useState(''); 
 
-    const { trans, createTask } = useContext(GlobalContext);
+    const {createTask } = useContext(GlobalContext);
 
     const newTask = ( e ) => {
 
